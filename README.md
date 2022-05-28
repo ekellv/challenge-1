@@ -1,6 +1,7 @@
 # Code Refactor Starter Code
 https://ekellv.github.io/challenge-1/
 
-![image](https://user-images.githubusercontent.com/103372188/170842348-2dfb7baf-605f-4907-a802-509637675b67.png)
-![image](https://user-images.githubusercontent.com/103372188/170842356-e2c86ace-fdb4-4995-997f-5542fca5bdcc.png)
+![image](https://user-images.githubusercontent.com/103372188/170842380-25d10131-6b44-4065-8ab6-efa6cdcfaf81.png)
+![image](https://user-images.githubusercontent.com/103372188/170842389-a7d373df-f0e6-4713-8cef-10cfa6896954.png)
+
 
