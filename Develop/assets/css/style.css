@@ -1,26 +1,50 @@
+/*
+    sets global style for box styling and their inherent borders and margins
+*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*
+sets the background color for the body of the document
+*/
 body {
     background-color: #d9dcd6;
 }
 
+/*
+    set the header padding to 20px
+    font family set to Trebuchet MS
+    background for header changed to blue
+    text color set to white
+*/
 .header {
-    padding: 20px;
+    padding: 20px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/*
+    display set to inline block
+    header font set to 48px
+    font color changed to light green
+*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
+/*
+    padding set to 15 px 
+    right margin set to 20px 
+    float set to right
+    font for list set to Gill Sans
+    font size set to 20px
+*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -29,20 +53,38 @@ body {
     font-size: 20px;
 }
 
+/*
+    bullets removed from list
+*/
 .header div ul {
     list-style-type: none;
 }
 
+/*
+    list set to display inline
+    margins set to 25px for items
+*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*
+    link color set to white
+    inherent link decoration removed
+*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*
+    hero image height sized to 800px
+    set to fill width of screen
+    margin of 20px
+    image will cover background
+    image will be centered over background
+*/
 .hero {
     height: 800px;
     width: 100%;
@@ -52,31 +94,56 @@ a {
     background-position: center;
 }
 
+/*
+    p fonts set to 16px
+*/
 p {
     font-size: 16px;
 }
 
+/*
+    images will float left of text with 25px right margin
+*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*
+    images will float right of text with 25px left margin
+*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*
+    content will fill 75% of screen
+    content will display in a block
+    left margins will be 25px
+*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*
+    h2 margin set to 20px
+    font set to 36px
+*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*
+    margins set to 25px
+    padding set to 50px
+    height of boxes set to 300px
+    font changed to Gill Sans and set to white
+    background of elements set to blue
+*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -86,10 +153,23 @@ h2 {
     color: #ffffff;
 }
 
+/*
+    image heights set to 200px
+*/
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/*
+    right margin of benefits bar set to 20px
+    padding set to 20px
+    elements will sit below images
+    benefits bar will float to right of other page elements
+    benefits bar set to 20% of page
+    benefits bar set to 100% of page length beneath header
+    font set to Gill Sans
+    background set to blue
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,26 +181,48 @@ h2 {
     background-color: #2589bd;
 }
 
+/*
+    h3 margin bottoms set to 10px
+    text aligned to center
+*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
+    each element set with 32px margin bottom
+    font color set to white
+*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*
+    images set to display in block
+    margins to to have 10px margin top
+    max width set to 150px
+*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*
+    h4 set to 20px font size
+*/
 .footer h4 {
     font-size: 20px;
 }
 
+/*
+    footer set to 30px padding
+    will sit beneath h4
+    font set to Trebuchet MS
+    text aligned to center
+*/
 .footer {
     padding: 30px;
     clear: both;
