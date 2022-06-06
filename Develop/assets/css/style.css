@@ -20,7 +20,7 @@ body {
     background for header changed to blue
     text color set to white
 */
-.header {
+.header { /* Horiseon header */
     padding: 20px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -32,7 +32,7 @@ body {
     header font set to 48px
     font color changed to light green
 */
-.header h1 {
+.header h1 { /* nav bar piece of header */
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
@@ -45,7 +45,7 @@ body {
     font for list set to Gill Sans
     font size set to 20px
 */
-.header div {
+.header div { /* header container */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -56,7 +56,7 @@ body {
 /*
     bullets removed from list
 */
-.header div ul {
+.header div ul { /* nav bar */
     list-style-type: none;
 }
 
@@ -64,7 +64,7 @@ body {
     list set to display inline
     margins set to 25px for items
 */
-.header div ul li {
+.header div ul li { /* nav bar items */
     display: inline-block;
     margin-left: 25px;
 }
@@ -73,7 +73,7 @@ body {
     link color set to white
     inherent link decoration removed
 */
-a {
+a { /* in page links in nav bar */
     color: #ffffff;
     text-decoration: none;
 }
@@ -85,7 +85,7 @@ a {
     image will cover background
     image will be centered over background
 */
-.hero {
+.hero { /* large image of social media marketing office personnel */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -95,16 +95,27 @@ a {
 }
 
 /*
+    content will fill 75% of screen
+    content will display in a block
+    left margins will be 25px
+*/
+.content { /*  */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*
     p fonts set to 16px
 */
-p {
+p { /* text in both sides of document */
     font-size: 16px;
 }
 
 /*
     images will float left of text with 25px right margin
 */
-.float-left {
+.float-left { /* images in SEO and Social Media Marketing */
     float: left;
     margin-right: 25px;
 }
@@ -112,27 +123,16 @@ p {
 /*
     images will float right of text with 25px left margin
 */
-.float-right {
+.float-right { /* image in Online Reputation Management */
     float: right;
     margin-left: 25px;
-}
-
-/*
-    content will fill 75% of screen
-    content will display in a block
-    left margins will be 25px
-*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /*
     h2 margin set to 20px
     font set to 36px
 */
-h2 {
+h2 { /* heading in SEO, Online Reputation Management and Social Media Marketing */
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -170,7 +170,7 @@ h2 {
     font set to Gill Sans
     background set to blue
 */
-.benefits {
+.benefits { /* section of webpage on the right of the page */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -185,7 +185,7 @@ h2 {
     h3 margin bottoms set to 10px
     text aligned to center
 */
-h3 {
+h3 { /* heading in the section of website on right side of page */
     margin-bottom: 10px;
     text-align: center;
 }
@@ -213,7 +213,7 @@ h3 {
 /*
     h4 set to 20px font size
 */
-.footer h4 {
+.footer h4 { /* footer h4 */
     font-size: 20px;
 }
 
